@@ -5,7 +5,6 @@
 ; passaggio di parametri tramite stack.
 
 
-
 .model small
 .stack
 .data
