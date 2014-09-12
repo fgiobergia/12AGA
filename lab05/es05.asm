@@ -36,7 +36,7 @@
     nop
     .exit
     
-    prime:
+    prime proc
         cmp al, 2
         je  isprime
 
@@ -66,3 +66,5 @@
         not_prime:
         mov al, 0
         ret
+    prime endp
+end
